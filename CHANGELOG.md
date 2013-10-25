@@ -8,7 +8,13 @@ Version numbering follows the pattern: *[major].[minor].[miniscule]*. All number
 * **Miniscule** updates contain very small edits.
 
 
-v0.0.1
-------
+v0.0.2 | 2013-10-25
+-------------------
+
+Added the yii framework.
+
+
+v0.0.1 | 2013-10-24
+-------------------
 
 Creation of repository and basic files.
