@@ -11,4 +11,4 @@ Version numbering follows the pattern: *[major].[minor].[miniscule]*. All number
 v0.0.1
 ------
 
-Creation of repository.
+Creation of repository and basic files.
