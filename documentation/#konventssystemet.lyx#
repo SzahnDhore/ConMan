@@ -160,24 +160,6 @@ Databasen
 users
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-id
-\end_layout
-
-\begin_layout Itemize
-name
-\end_layout
-
-\begin_layout Itemize
-password
-\end_layout
-
-\begin_layout Itemize
-joined
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 events
 \end_layout
