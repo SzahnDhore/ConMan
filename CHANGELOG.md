@@ -8,6 +8,12 @@ Version numbering follows the pattern: *[major].[minor].[miniscule]*. All number
 * **Miniscule** updates contain very small edits.
 
 
+v0.0.3 | 2013-10-27
+-------------------
+
+Initialized the webbapp through the yii framework.
+
+
 v0.0.2 | 2013-10-25
 -------------------
 
