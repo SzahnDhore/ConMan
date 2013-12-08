@@ -8,19 +8,29 @@ Version numbering follows the pattern: *[major].[minor].[miniscule]*. All number
 * **Miniscule** updates contain very small edits.
 
 
-v0.0.4 | 2013-11-21
+v0.2.1 | 2013-12-08
+-------------------
+
+Development is once again on its way...
+
+* Changed the naming convention. All PHP-files containing single classes, except for the settings file, will be named thusly: [classname].class.php
+* Made the database settings into a static function rather than a variable.
+* Reworked a few things in the database and added some tables.
+
+
+v0.2.0 | 2013-11-21
 -------------------
 
 - Ditched the yii framework since learning it became a mental block, standing in the way of me actually working on the project.
 
 
-v0.0.3 | 2013-10-27
+v0.1.1 | 2013-10-27
 -------------------
 
 * Initialized the webbapp through the yii framework.
 
 
-v0.0.2 | 2013-10-25
+v0.1.0 | 2013-10-25
 -------------------
 
 + Added the yii framework.
