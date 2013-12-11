@@ -8,12 +8,17 @@ Version numbering follows the pattern: *[major].[minor].[miniscule]*. All number
 * **Miniscule** updates contain very small edits.
 
 
+v0.2.2 | 2013-12-11
+-------------------
+
+* Rearranging to code so that it adheres to PSR-0, PSR-1 and PSR-2.
+
+
 v0.2.1 | 2013-12-08
 -------------------
 
 Development is once again on its way...
 
-* Changed the naming convention. All PHP-files containing single classes, except for the settings file, will be named thusly: [classname].class.php
 * Made the database settings into a static function rather than a variable.
 * Reworked a few things in the database and added some tables.
 

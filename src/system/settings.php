@@ -1,34 +1,21 @@
 <?php
 
-// ================================================================
-// settings.php
-// ----------------------------------------------------------------
-// All user definable variables are placed in here.
-// ================================================================
+namespace \ConMan\system\Settings;
 
-class settings {
+class Settings
+{
 
-	function __construct() {
+    public static function database($setting = '')
+    {
+        $dbsettings = array(
+            'host' => 'localhost',
+            'dbname' => 'conman',
+            'username' => 'root',
+            'password' => '',
+            'prefix' => 'conman-',
+        );
 
-	}
-
-
-
-	public static function database($setting='') {
-
-		$dbsettings = array(
-			'host'		=> 'localhost',
-			'dbname'	=> 'conman',
-			'username'	=> 'root',
-			'password'	=> '',
-			'prefix'	=> 'conman-',
-		);
-
-		return (array_key_exists($setting, $dbsettings) ? $dbsettings[$setting] : $dbsettings);
-
-	}
+        return (array_key_exists($setting, $dbsettings) ? $dbsettings[$setting] : $dbsettings);
+    }
 
 }
-
-
-?>
