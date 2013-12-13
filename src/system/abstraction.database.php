@@ -7,7 +7,6 @@ use PDO;
 /**
  * Handles the database connection and basic CRUD operations.
  */
-
 class Database
 {
 
@@ -19,7 +18,7 @@ class Database
     public function connect()
     {
         try {
-            $con = new \PDO('mysql:host=' . Settings::database('host') . ';dbname=' . Settings::database('dbname'), Settings::database('username'), Settings::database('password'));
+            $con = new PDO('mysql:host=' . Settings::database('host') . ';dbname=' . Settings::database('dbname'), Settings::database('username'), Settings::database('password'));
             $out = $con;
         } catch(PDOException $error) {
             $out = $error->getMessage();

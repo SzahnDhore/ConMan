@@ -10,11 +10,13 @@ Create a new Event
 1. Click 'New event'.
 2. Fill in a name for the event and click 'Create event'.
 3. Fill in the rest of the information.
-	* All information is optional at this stage, but other actions may depend on correct information.
+	* All event information is optional at this stage, but subsequent actions may depend on correct information being filled in here.
 
 
 Add a new Happening
 -------------------
+
+A Happening is a smaller event, taking place as part of the larger event.
 
 1. Navigate to the event you want to create a happening for.
 2. Click 'New happening'.

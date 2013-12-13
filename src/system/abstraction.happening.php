@@ -8,4 +8,9 @@ namespace ConMan;
 class Happening
 {
 
+    public function testing($stuff = 'Mon')
+    {
+        return 'Iz all gudd, '.$stuff.'!';
+    }
+
 }

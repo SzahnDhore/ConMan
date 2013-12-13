@@ -12,7 +12,7 @@ function autoloader($class)
     $class = strtolower(str_replace(__NAMESPACE__ . '\\', '', $class));
 
     // --- Directories where classes reside. Relative to root.
-    $dirs = array('system\\', );
+    $dirs = array('system/', );
 
     // --- Prefixes for class files.
     $prefix = array(
