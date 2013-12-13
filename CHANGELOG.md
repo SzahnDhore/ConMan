@@ -8,10 +8,20 @@ Version numbering follows the pattern: *[major].[minor].[miniscule]*. All number
 * **Miniscule** updates contain very small edits.
 
 
+v0.2.3 | 2013-12-13
+-------------------
+
+Decided on a design pattern for the system. It will be written using the PAC (presentation-abstraction-control) design pattern since this makes the most sense for web applications. Each class will have its own file, named using the pattern "[type].[class].php". For example, the class "Database" will reside in the file "abstraction.database.php". All classes will be in the "system" folder. If this becomes cluttered, sub-folders for the types can be made.
+
+Ditched support for PSR-0 since there is no kind of reasonable documentation for actually making it work and instead wrote my own autoloader. This will technically make the code non-compliant with higher PSR standards, but I will try to follow the PSR-1 and PSR-2 standards anyway.
+
+Also reworked the database handler a bit. It now uses PDO and should be fairly versitile and safe from injection.
+
+
 v0.2.2 | 2013-12-11
 -------------------
 
-* Rearranging to code so that it adheres to PSR-0, PSR-1 and PSR-2.
+I'm currently rearranging to code so that it adheres to PSR-0, PSR-1 and PSR-2. This may take a few revisions to get right.
 
 
 v0.2.1 | 2013-12-08

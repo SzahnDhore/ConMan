@@ -1,7 +1,10 @@
 <?php
 
-namespace \ConMan\system\Settings;
+namespace ConMan;
 
+/**
+ * All user settings reside in this class. Each area of settings has its own function.
+ */
 class Settings
 {
 
