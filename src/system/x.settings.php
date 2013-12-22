@@ -26,7 +26,7 @@ class Settings
             'prefix' => 'conman-',
         );
 
-        $dbsettings = $dbsettings['cloud9'];
+        $dbsettings = $dbsettings['xampp'];
 
         return (array_key_exists($setting, $dbsettings) ? $dbsettings[$setting] : $dbsettings);
     }
